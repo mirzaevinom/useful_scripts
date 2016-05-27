@@ -7,6 +7,8 @@ Created on Wed May 25 10:30:11 2016
 Takes an image as an input. 
 Gets rid of unnecessary background white space.
 Saves it in an output file
+Run the script as
+    img_white2blank.py -i <inputfile> -o <outputfile>
 """
 
 from PIL import Image
